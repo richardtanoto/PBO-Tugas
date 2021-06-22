@@ -67,7 +67,7 @@ public class KartuHasilStudi {
         System.out.println("Total SKS : " + totalSKS());
         System.out.println("");
         System.out.println("Nilai");
-        System.out.println("No.\t" +  "Kode MataKuliah\t\t" + "Nama MataKuliah\t\t\t" + "Sks\t\t\t" + "Nilai");
+        System.out.println("No.\t" +  "Kode MataKuliah\t\t" + "Nama MataKuliah\t\t\t" + "Sks\t\t" + "Nilai");
         for(NilaiStudi a : nilaistudi){
             System.out.print(count);
             System.out.println(a.toString());
